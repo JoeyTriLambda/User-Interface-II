@@ -54,12 +54,13 @@ html {
 }
 
 .nav-section {
-    background-color: grey;
+    background-color:darkslategray;
     padding: 2rem 0 2rem 2rem;
 }
 
 .nav-section h1{
     padding-left: 1rem;
+    padding-bottom: 2rem;
     font-size: 4rem;
     font-family: Great Vibes;
 }
@@ -171,6 +172,7 @@ h2{
     justify-content: space-around;
     font-size: 2rem;
     width: 100%;
+    padding-bottom: 2rem;
 }
 
 .second-row {
@@ -194,6 +196,10 @@ footer {
     flex-direction: column;
     align-content: center;
     background-color: darkslategrey;
+}
+
+footer>h2 {
+    padding-top: 2rem;
 }
 
 footer a{
