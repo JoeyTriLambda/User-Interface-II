@@ -82,15 +82,46 @@ a:hover {
     transition: .5s;
 }
 
-@media screen and (max-width: 500px) {
+@media only screen and (max-width: 800px) {
     .nav-links a {
     float: none;
-    width: 100%;
+    width: 25%;
+    height:70px;
     background-color: wheat;
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+    border: 1px;
+    margin-left: 11%;    
+    }
+
+    
+    img {
+        width:30%;
+        height:30%;
+    }
+    .nav-section {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 38%;
+    }
+
+    .main-info {
+        padding-left: 31%;
+        display: block;
+    }
+
+    .project-pics {
+        margin-left: 30%;
+    }
+
+    footer {
+        padding-left: 37%;
     }
 }
 
-@media screen and (min-width: 400px) {
+@media only screen and (min-width: 500px) {
     body {
     background-color: grey;
     }
